@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: white;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    height: 100%;
+}
+
+body {
+    background: blue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+header {
+    background: red;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar {
+    background: green;
+    height: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    background: yellow;
+    width: 80%;
+    height: 1.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    background: lightgreen;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+}
