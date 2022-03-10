@@ -10,7 +10,7 @@ function clickHandler(event)
 {
     if (event.target.hasAttribute("role")) 
     { 
-        returnHTML(event.target.getAttribute("role"));
+        returnHTML("./pages/" + event.target.getAttribute("role"));
     }
 }
 
