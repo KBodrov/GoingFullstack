@@ -36,3 +36,36 @@ div {
     flex-direction: column;
     align-items: center;
 }
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 2rem;
+    display: flex;
+}
+
+input {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.red {
+    color: red;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.hint {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}

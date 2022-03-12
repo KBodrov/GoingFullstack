@@ -1,3 +1,19 @@
 <div>
-    Registration form to be here
+    <form action="">
+        <label for="userEmail">Email<p class="red">*</p></label>
+        <input type="email" name="userEmail" id="userEmail" placeholder="Укажите Ваш Email" required>
+        <label for="userPwd">Пароль<p class="red">*</p></label>
+        <input type="password" name="userPwd" id="userPwd" placeholder="Введите пароль" required>
+        <label for="userAge">Возраст<p class="red">*</p></label>
+        <input type="number" name="userAge" id="userAge" placeholder="Укажите Ваш возраст" required>
+        <label for="userName">Имя</label>
+        <input type="text" name="userName" id="userName" placeholder="Укажите Ваше имя">
+        <label for="userPhone">Номер телефона</label>
+        <input type="tel" name="userPhone" id="userPhone" placeholder="Укажите Ваш номер телефона">
+        <div class="hint">
+            <p class="red">*</p>
+            <p> - поля, обазательные для ввода!</p>
+        </div>
+        <input type="button" value="Отправить">
+    </form>
 </div>
