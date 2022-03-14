@@ -1,3 +1,64 @@
 <div>
-    Flat search form to be here
+    <form action="">
+
+        <label for="cityDistrict">Район поиска (станция метро / улица / район города)</label>
+        <input type="text" name="cityDistrict" id="cityDistrict" placeholder="Укажите район">
+
+        <label for="roomsNumber">Количество комнат</label>
+        <input type="number" name="roomsNumber" id="roomsNumber" placeholder="Укажите количество" min="1" max="20">
+
+        <label for="completionYear">Год сдачи дома</label>
+        <input type="number" name="completionYear" id="completionYear" placeholder="Укажите год" min="1900" max="2022">
+
+        <label for="maximumCost">Максимальная стоимость</label>
+        <input type="number" name="maximumCost" id="maximumCost" placeholder="Укажите максимальную сумму в рублях">
+
+        <label for="overallArea">Общая площадь (включая места общего пользования)</label>
+        <input type="number" name="overallArea" id="overallArea" placeholder="Укажите общую площадь объекта">
+
+        <div class="oneRowCheckbox">
+            <label for="needFinishing">С отделкой:</label>
+            <input type="checkbox" name="needFinishing" id="needFinishing" checked>
+        </div>
+
+        <div class="oneRowCheckbox">
+            <label for="needTerrace">С террасой:</label>
+            <input type="checkbox" name="needTerrace" id="needTerrace">
+        </div>
+
+        <p>Выбор класса жилья:</p>
+        <div class="multipleCheckboxes">
+            <div class="oneRowCheckbox">
+                <input type="checkbox" name="housingClass" value="standard" id="standard">
+                <label for="standard">Стандарт</label>
+            </div>
+            <div class="oneRowCheckbox">    
+                <input type="checkbox" name="housingClass" value="comfort" id="comfort">
+                <label for="standard">Комфорт</label>
+            </div>
+            <div class="oneRowCheckbox">    
+                <input type="checkbox" name="housingClass" value="business" id="business">
+                <label for="standard">Бизнес</label>
+            </div>
+            <div class="oneRowCheckbox">    
+                <input type="checkbox" name="housingClass" value="elite" id="elite">
+                <label for="standard">Элит</label>
+            </div>
+        </div>
+
+        <label for="desiredFloor">Этаж:</label>
+        <input type="number" name="desiredFloor" id="desiredFloor" min="1" max="35">
+        <div class="multipleCheckboxes">
+            <div class="oneRowCheckbox">
+                <input type="checkbox" name="desiredFloor" value="notFirst" id="notFirst">
+                <label for="notFirst">Не первый</label>
+            </div>
+            <div class="oneRowCheckbox">    
+                <input type="checkbox" name="desiredFloor" value="notLast" id="notLast">
+                <label for="notLast">Не последний</label>
+            </div>
+        </div>
+        
+        <input type="button" value="Отправить">
+    </form>
 </div>

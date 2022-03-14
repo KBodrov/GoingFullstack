@@ -65,7 +65,37 @@ p {
 
 .hint {
     display: flex;
+    justify-content: flex-start;
     flex-direction: row;
     font-size: 1.5rem;
     margin-bottom: 1rem;
+}
+
+.hint > span{
+    font-size: 2rem;
+}
+
+.oneRowCheckbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.oneRowCheckbox > input{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.multipleCheckboxes {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+form > p {
+    font-size: 2rem;
 }
