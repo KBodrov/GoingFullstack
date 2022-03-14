@@ -1,0 +1,38 @@
+html {
+    background: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    height: 100%;   
+}
+
+header {
+    background: red;
+}
+
+.navbar {
+    background: green;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    background: lightsalmon;
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+div {
+    font-size: 1.5rem;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
