@@ -1,0 +1,30 @@
+.secondTask {
+    font-family: Arial;
+    font-size: 2.5rem;
+    padding: 0 1rem;
+}
+
+.secondTask > h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.secondTask > p > a {
+    text-decoration: none;
+}
+
+.redText {
+    color: red;
+}
+
+.uppercaseText {
+    text-transform: uppercase;
+}
+
+.boldText {
+    font-weight: bold;
+}
+
+.throughText {
+    text-decoration: line-through;
+}
