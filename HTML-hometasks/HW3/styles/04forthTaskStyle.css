@@ -1,0 +1,21 @@
+.fourthTask {
+    display: flex;
+
+}
+.fourthTask > a {
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    margin: 0 0.5rem;
+    border: 5px solid orangered;
+    color: orangered;
+    border-radius: 10px;
+}
+
+.fourthTask > a:nth-child(3) {
+    background: orange;
+}
+
+.fourthTask > a:hover {
+    background: gold;
+}
