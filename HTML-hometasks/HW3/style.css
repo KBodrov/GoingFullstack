@@ -53,3 +53,7 @@ article {
     display: flex;
     justify-content: center;
 }
+
+.navbar .done:hover {
+    color: green;
+}
