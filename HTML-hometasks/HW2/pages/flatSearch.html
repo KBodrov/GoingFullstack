@@ -29,32 +29,32 @@
         <p>Выбор класса жилья:</p>
         <div class="multipleCheckboxes">
             <div class="oneRowCheckbox">
-                <input type="checkbox" name="housingClass" value="standard" id="standard">
+                <input type="checkbox" name="housingClass[]" value="standard" id="standard"> <!--Для реализации множественного выбора нужно не забывать []-->
                 <label for="standard">Стандарт</label>
             </div>
             <div class="oneRowCheckbox">    
-                <input type="checkbox" name="housingClass" value="comfort" id="comfort">
+                <input type="checkbox" name="housingClass[]" value="comfort" id="comfort">
                 <label for="standard">Комфорт</label>
             </div>
             <div class="oneRowCheckbox">    
-                <input type="checkbox" name="housingClass" value="business" id="business">
+                <input type="checkbox" name="housingClass[]" value="business" id="business">
                 <label for="standard">Бизнес</label>
             </div>
             <div class="oneRowCheckbox">    
-                <input type="checkbox" name="housingClass" value="elite" id="elite">
+                <input type="checkbox" name="housingClass[]" value="elite" id="elite">
                 <label for="standard">Элит</label>
             </div>
         </div>
 
         <label for="desiredFloor">Этаж:</label>
-        <input type="number" name="desiredFloor" id="desiredFloor" min="1" max="35">
+        <input type="number" name="desiredFloor[]" id="desiredFloor" min="1" max="35"> <!--Для реализации множественного выбора нужно не забывать []-->
         <div class="multipleCheckboxes">
             <div class="oneRowCheckbox">
-                <input type="checkbox" name="desiredFloor" value="notFirst" id="notFirst">
+                <input type="checkbox" name="desiredFloor[]" value="notFirst" id="notFirst">
                 <label for="notFirst">Не первый</label>
             </div>
             <div class="oneRowCheckbox">    
-                <input type="checkbox" name="desiredFloor" value="notLast" id="notLast">
+                <input type="checkbox" name="desiredFloor[]" value="notLast" id="notLast">
                 <label for="notLast">Не последний</label>
             </div>
         </div>
