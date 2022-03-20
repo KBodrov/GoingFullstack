@@ -1,0 +1,59 @@
+html {
+    background: white;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    /* background: yellow; */
+    flex-direction: column;
+}
+
+header {
+    background: red;
+}
+
+main {
+    /* background: black; */
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    /* background: green; */
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    background: lightseagreen;
+    height: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a:hover{
+    color: red;
+}
+
+article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .done:hover {
+    color: green;
+}
