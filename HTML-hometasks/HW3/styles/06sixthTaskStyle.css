@@ -1,0 +1,10 @@
+.sixthTask {
+    background-image: url("/HTML-hometasks/HW3/Multimedia/beautifulGalaxy.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
