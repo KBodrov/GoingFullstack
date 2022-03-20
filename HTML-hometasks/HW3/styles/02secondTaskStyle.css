@@ -13,18 +13,18 @@
     text-decoration: none;
 }
 
-.redText {
+.secondTask .redText {
     color: red;
 }
 
-.uppercaseText {
+.secondTask .uppercaseText {
     text-transform: uppercase;
 }
 
-.boldText {
+.secondTask .boldText {
     font-weight: bold;
 }
 
-.throughText {
+.secondTask .throughText {
     text-decoration: line-through;
 }
