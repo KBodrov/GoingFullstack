@@ -1,0 +1,23 @@
+.task01 {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.task01 > a {
+    text-decoration: none;
+    font-size: 2rem;
+    color: rgb(157, 19, 211);
+    padding: 1rem 5rem;
+    flex-shrink: 0;
+}
+
+.task01 > a:hover {
+    background: rgb(193, 118, 228);
+}
+
+.vertical {
+    flex-direction: column;
+}
