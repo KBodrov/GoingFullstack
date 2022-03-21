@@ -1,0 +1,117 @@
+.task02 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    --navbar-background: rgb(175, 116, 231);
+    --navbar-hover-background: rgb(195, 139, 248);
+    --sidebar-background: rgb(248, 205, 212);
+    --sidebar-hover-background: rgb(253, 179, 190);
+}
+
+.taks02_navbar {
+    background: var(--navbar-background);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.taks02_navbar a {
+    padding: 1.5rem 3rem;
+}
+
+.taks02_navbar a:hover {
+    background: var(--navbar-hover-background)
+}
+
+.taks02_navbar a:first-child:hover {
+    background: var(--navbar-background);
+}
+
+.taks02_navbar input {
+    margin: 1.5rem 3rem 1.5rem auto;
+    height: 2rem;
+    width: 20rem;
+    font-size: 1.5rem;
+
+}
+
+.task02 nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.central {
+    display: flex;
+    width: 100%;
+}
+
+.taks02_sidebar {
+    background: var(--sidebar-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30rem;
+}
+
+.taks02_sidebar a {
+    padding: 1.5rem 4rem;
+    font-size: 1rem;
+    text-align: center;
+
+}
+
+.taks02_sidebar a:hover {
+    background: var(--sidebar-hover-background);
+}
+
+section {
+    width: 100%;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.6rem;
+    margin: 0.6rem;
+}
+
+.productCard {
+    background: var(--navbar-background);
+    padding: 0.6rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.productCard:nth-child(3) {
+    grid-column: 3 / 5 ;
+}
+
+.productCard:nth-child(4) {
+    grid-column: 1 / 3 ;
+}
+
+.productCard h4 {
+    text-transform: uppercase;
+}
+
+.productCard img {
+    width: 100%;
+}
+
+.productCard p:last-child {
+    font-size: 2rem;
+    margin-top: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.taks02_footer {
+    text-transform: uppercase;
+    background: var(--navbar-background);
+    width: 100%;
+    height: 6rem;
+}
